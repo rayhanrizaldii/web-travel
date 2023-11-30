@@ -9,7 +9,7 @@ import BookingForm from "parts/BookingForm";
 
 export default class DetailPage extends Component {
   componentDidMount() {
-    window.title = "Details Page";
+    document.title = "Liburanyuk. | Details Page";
     window.scrollTo(0, 0);
   }
 

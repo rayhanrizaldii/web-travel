@@ -14,7 +14,7 @@ export default class LandingPage extends Component {
   }
 
   componentDidMount() {
-    window.title = "Staycation | Home";
+    document.title = "Liburanyuk. | Home";
     window.scrollTo(0, 0);
   }
   render() {
